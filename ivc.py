@@ -14,7 +14,7 @@ buttonClicked = st.button('Set')
 # Callbacks
 if buttonClicked:
   # Get the data
-  link  = f"""https://query1.finance.yahoo.com/v10/...{ticker}?"""
+  link  = f"""https://query1.finance.yahoo.com/v10/finance/quoteSummary/{ticker}?"""
   modules = f"""modules=assetProfile%2Cprice%2CfinancialData%2CearningsTrend%2CdefaultKeyStatistics"""
   requestString = link + modules
 
