@@ -57,7 +57,7 @@ if 'data' in st.session_state:
    #st.metric("peFWD", peFWD)
    #st.metric("epsFWD", epsFWD)
    #st.metric("requiredRateOfReturn", requiredRateOfReturn)
-   st.metric("yearsToProject", yearsToProject)
+   #st.metric("yearsToProject", yearsToProject)
 
   # Add controls
   growth = st.number_input("Growth", value=growth, step = 1.0)
