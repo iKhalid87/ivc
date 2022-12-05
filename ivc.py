@@ -52,12 +52,12 @@ if 'data' in st.session_state:
   yearsToProject = 5
 
   # # Print the metrics
-  # st.metric("currentPrice", currentPrice)
-  # st.metric("growth", growth)
-  # st.metric("peFWD", peFWD)
-  # st.metric("epsFWD", epsFWD)
-  # st.metric("requiredRateOfReturn", requiredRateOfReturn)
-  # st.metric("yearsToProject", yearsToProject)
+   st.metric("currentPrice", currentPrice)
+   st.metric("growth", growth)
+   st.metric("peFWD", peFWD)
+   st.metric("epsFWD", epsFWD)
+   st.metric("requiredRateOfReturn", requiredRateOfReturn)
+   st.metric("yearsToProject", yearsToProject)
 
   # Add controls
   growth = st.number_input("Growth", value=growth, step = 1.0)
