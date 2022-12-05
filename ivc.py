@@ -49,7 +49,7 @@ if 'data' in st.session_state:
   peFWD = data["defaultKeyStatistics"]["forwardPE"]["raw"]
   epsFWD = data["defaultKeyStatistics"]["forwardEps"]["raw"]
   requiredRateOfReturn = 10.0
-  yearsToProject = 5
+  yearsToProject = 10
 
   # # Print the metrics
    #st.metric("currentPrice", currentPrice)
